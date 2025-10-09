@@ -27,8 +27,11 @@ public class Login {
 		driver.manage().window().maximize();
 		loginpage = new LoginPage(driver);
 		driver.get(prop.getProperty("url"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 		loginpage.clickAccountField();
 		loginpage.clickLoginField();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+
 
 	}
 	@Test(priority=1)
