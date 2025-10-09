@@ -75,7 +75,7 @@ public class LoginPage {
 	}
 	public void enterpass(String Password)
 	{
-		pass.sendKeys(Password,Keys.TAB,Keys.TAB,Keys.ENTER);
+		pass.sendKeys(Password);
 	}
 	public void clickLogin()
 	{
