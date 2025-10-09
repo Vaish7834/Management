@@ -7,7 +7,7 @@
 </Listeners>
   <test  name="Test">
     <classes>
-      <class name="TestNGC.First.RetryAnalyzerClass"/>
+      <class name="TutorialsNinja.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
