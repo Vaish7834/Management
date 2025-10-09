@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import TestNGC.First.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
+import java.time.Duration;
+
 
 
 public class Login {
